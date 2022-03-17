@@ -1,3 +1,5 @@
+import React from "react";
+
 // never type
 
 function fail(msg: string): never {
@@ -8,7 +10,7 @@ function neverDemo(val: string | number) {
     if(typeof val === 'string'){
         return 'string found'
     } else if(typeof val === 'number'){
-        return 'string found'
+        return 'string found'  
     } else {
         return val;
     }
